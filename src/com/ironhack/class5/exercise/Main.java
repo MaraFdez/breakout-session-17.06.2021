@@ -15,7 +15,7 @@ public class Main {
         paymentList1.addTransaction(transaction3);
 
         System.out.println("LAST TRANSACTION : \n" + paymentList1.getLastTransaction());
-        System.out.println("TRANSACTION BY DATE : \n" + paymentList1.getTransactionByDate(new Date(2014,04,11)));
+        System.out.println("TRANSACTION BY DATE : \n" + paymentList1.getTransactionByDate(new Date(2017,  Calendar.MAY, 26)));
 
         System.out.println("ALL TRANSACTIONS : \n" + paymentList1.getAllTransactions());
     }

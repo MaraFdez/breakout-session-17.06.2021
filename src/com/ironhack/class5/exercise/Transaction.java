@@ -9,6 +9,7 @@ public class Transaction {
     private Date date;
 
     public Transaction() {};
+
     public Transaction(int sellerAccountNumber, int buyerAccountNumber, double amount, Date date) {
         setSellerAccountNumber(sellerAccountNumber);
         setBuyerAccountNumber(buyerAccountNumber);
