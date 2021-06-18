@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class PaymentList extends Transaction implements TransactionList {
+public class PaymentList implements TransactionList {
     List<Transaction> allTransactions = new ArrayList<>();
 
     public Transaction getLastTransaction() {
